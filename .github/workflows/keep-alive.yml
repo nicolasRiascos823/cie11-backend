@@ -1,0 +1,22 @@
+name: Keep Render awake
+
+# Ping externo cada 10 min para evitar el sleep del free tier.
+# Configura el secret APP_URL = https://tu-servicio.onrender.com
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Health check
+        run: |
+          if [ -z "${{ secrets.APP_URL }}" ]; then
+            echo "Falta el secret APP_URL (ej: https://tu-app.onrender.com)"
+            exit 1
+          fi
+          curl -fsS --retry 2 --retry-delay 5 --max-time 60 \
+            "${{ secrets.APP_URL }}/health"
