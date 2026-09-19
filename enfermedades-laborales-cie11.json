@@ -1,0 +1,540 @@
+{
+  "meta": {
+    "titulo": "Enfermedades del CIE-11 asociadas a enfermedades laborales",
+    "version_cie": "CIE-11 MMS",
+    "total": 55,
+    "nota": "Códigos CIE-11 de referencia. En uso clínico se recomienda postcoordinación con contexto ocupacional (exposición laboral). Verificar en el navegador oficial de la OMS (icd.who.int) antes de uso normativo.",
+    "estructura_por_item": {
+      "id": "Identificador interno",
+      "codigo_cie11": "Código CIE-11",
+      "nombre": "Nombre oficial o clínico",
+      "categoria": "Grupo clínico",
+      "agentes": "Exposiciones laborales típicas",
+      "sectores": "Sectores donde es frecuente",
+      "relacion_laboral": "Por qué se asocia a enfermedad laboral"
+    }
+  },
+  "enfermedades": [
+    {
+      "id": 1,
+      "codigo_cie11": "CA60.0",
+      "nombre": "Neumoconiosis por polvo de sílice (silicosis)",
+      "categoria": "Respiratoria",
+      "agentes": ["sílice cristalina"],
+      "sectores": ["minería", "construcción", "canteras", "fundición"],
+      "relacion_laboral": "Inhalación crónica de polvo de sílice en el trabajo"
+    },
+    {
+      "id": 2,
+      "codigo_cie11": "CA60.00",
+      "nombre": "Neumoconiosis por polvo de talco",
+      "categoria": "Respiratoria",
+      "agentes": ["talco industrial"],
+      "sectores": ["industria cosmética", "cerámica", "plásticos"],
+      "relacion_laboral": "Exposición ocupacional a polvo de talco"
+    },
+    {
+      "id": 3,
+      "codigo_cie11": "CA60.1",
+      "nombre": "Antracosis / neumoconiosis del trabajador del carbón",
+      "categoria": "Respiratoria",
+      "agentes": ["polvo de carbón"],
+      "sectores": ["minería de carbón"],
+      "relacion_laboral": "Inhalación prolongada de polvo de carbón"
+    },
+    {
+      "id": 4,
+      "codigo_cie11": "CA60.2",
+      "nombre": "Asbestosis (neumoconiosis por asbestos)",
+      "categoria": "Respiratoria",
+      "agentes": ["amianto / asbestos"],
+      "sectores": ["construcción", "desamiantado", "astilleros", "industria del freno"],
+      "relacion_laboral": "Inhalación de fibras de amianto"
+    },
+    {
+      "id": 5,
+      "codigo_cie11": "CA60.3",
+      "nombre": "Neumoconiosis asociada a tuberculosis",
+      "categoria": "Respiratoria",
+      "agentes": ["polvos minerales", "Mycobacterium tuberculosis"],
+      "sectores": ["minería", "trabajos con polvo mineral"],
+      "relacion_laboral": "Neumoconiosis ocupacional con coinfección tuberculosa"
+    },
+    {
+      "id": 6,
+      "codigo_cie11": "CA60.4",
+      "nombre": "Aluminosis pulmonar",
+      "categoria": "Respiratoria",
+      "agentes": ["polvo de aluminio"],
+      "sectores": ["metalurgia del aluminio", "producción de abrasivos"],
+      "relacion_laboral": "Exposición laboral a polvo de aluminio"
+    },
+    {
+      "id": 7,
+      "codigo_cie11": "CA60.5",
+      "nombre": "Fibrosis pulmonar por bauxita",
+      "categoria": "Respiratoria",
+      "agentes": ["bauxita"],
+      "sectores": ["extracción y refinación de bauxita"],
+      "relacion_laboral": "Inhalación ocupacional de polvo de bauxita"
+    },
+    {
+      "id": 8,
+      "codigo_cie11": "CA60.6",
+      "nombre": "Beriliosis",
+      "categoria": "Respiratoria",
+      "agentes": ["berilio"],
+      "sectores": ["aeroespacial", "electrónica", "aleaciones"],
+      "relacion_laboral": "Sensibilización e inhalación laboral de berilio"
+    },
+    {
+      "id": 9,
+      "codigo_cie11": "CA60.7",
+      "nombre": "Fibrosis pulmonar por grafito",
+      "categoria": "Respiratoria",
+      "agentes": ["grafito"],
+      "sectores": ["producción de electrodos", "minería de grafito"],
+      "relacion_laboral": "Inhalación ocupacional de polvo de grafito"
+    },
+    {
+      "id": 10,
+      "codigo_cie11": "CA60.8",
+      "nombre": "Siderosis",
+      "categoria": "Respiratoria",
+      "agentes": ["óxido de hierro"],
+      "sectores": ["soldadura", "siderurgia"],
+      "relacion_laboral": "Inhalación de humos y polvos de hierro"
+    },
+    {
+      "id": 11,
+      "codigo_cie11": "CA60.9",
+      "nombre": "Estanosis",
+      "categoria": "Respiratoria",
+      "agentes": ["óxido de estaño"],
+      "sectores": ["fundición", "metalurgia del estaño"],
+      "relacion_laboral": "Exposición ocupacional a polvo de estaño"
+    },
+    {
+      "id": 12,
+      "codigo_cie11": "CA70",
+      "nombre": "Neumonitis por hipersensibilidad",
+      "categoria": "Respiratoria",
+      "agentes": ["antígenos orgánicos", "hongos", "proteínas animales"],
+      "sectores": ["agricultura", "avicultura", "procesamiento de madera"],
+      "relacion_laboral": "Respuesta inmunológica a inhalantes del entorno laboral"
+    },
+    {
+      "id": 13,
+      "codigo_cie11": "CA70.4",
+      "nombre": "Pulmón del maltificador",
+      "categoria": "Respiratoria",
+      "agentes": ["Aspergillus clavatus", "malta"],
+      "sectores": ["cervecerías", "maltería"],
+      "relacion_laboral": "Exposición ocupacional a polvo de malta contaminada"
+    },
+    {
+      "id": 14,
+      "codigo_cie11": "CA70.5",
+      "nombre": "Pulmón del cultivador de hongos",
+      "categoria": "Respiratoria",
+      "agentes": ["esporas de hongos"],
+      "sectores": ["cultivo de champiñones"],
+      "relacion_laboral": "Inhalación de esporas en instalaciones de cultivo"
+    },
+    {
+      "id": 15,
+      "codigo_cie11": "CA70.6",
+      "nombre": "Pulmón del trabajador de la corteza de arce",
+      "categoria": "Respiratoria",
+      "agentes": ["Cryptostroma corticale"],
+      "sectores": ["industria maderera"],
+      "relacion_laboral": "Exposición a esporas en corteza de arce"
+    },
+    {
+      "id": 16,
+      "codigo_cie11": "CA80.0",
+      "nombre": "Bisinosis por exposición al algodón",
+      "categoria": "Respiratoria",
+      "agentes": ["polvo de algodón"],
+      "sectores": ["textil", "hilanderías"],
+      "relacion_laboral": "Inhalación de polvo de algodón en fábrica"
+    },
+    {
+      "id": 17,
+      "codigo_cie11": "CA80.1",
+      "nombre": "Enfermedad de los rastrilladores de lino",
+      "categoria": "Respiratoria",
+      "agentes": ["polvo de lino"],
+      "sectores": ["industria textil del lino"],
+      "relacion_laboral": "Exposición ocupacional a polvo de lino"
+    },
+    {
+      "id": 18,
+      "codigo_cie11": "CA23",
+      "nombre": "Asma",
+      "categoria": "Respiratoria",
+      "agentes": ["isocianatos", "harinas", "látex", "humos de soldadura", "alérgenos animales"],
+      "sectores": ["panadería", "pintura/automoción", "salud", "plásticos"],
+      "relacion_laboral": "Asma ocupacional por sensibilizantes o irritantes laborales"
+    },
+    {
+      "id": 19,
+      "codigo_cie11": "CA22",
+      "nombre": "Enfermedad pulmonar obstructiva crónica (EPOC)",
+      "categoria": "Respiratoria",
+      "agentes": ["polvos minerales", "humos", "vapores irritantes"],
+      "sectores": ["minería", "construcción", "agricultura"],
+      "relacion_laboral": "EPOC agravada o causada por exposición laboral crónica"
+    },
+    {
+      "id": 20,
+      "codigo_cie11": "CB20",
+      "nombre": "Placas pleurales (asociadas a amianto)",
+      "categoria": "Respiratoria",
+      "agentes": ["asbestos"],
+      "sectores": ["construcción", "mantenimiento industrial"],
+      "relacion_laboral": "Marcador típico de exposición ocupacional a amianto"
+    },
+    {
+      "id": 21,
+      "codigo_cie11": "2C26",
+      "nombre": "Mesotelioma (maligno)",
+      "categoria": "Oncológica",
+      "agentes": ["asbestos"],
+      "sectores": ["desamiantado", "astilleros", "construcción antigua"],
+      "relacion_laboral": "Cáncer fuertemente ligado a exposición laboral a amianto"
+    },
+    {
+      "id": 22,
+      "codigo_cie11": "2C25",
+      "nombre": "Cáncer de bronquio o pulmón",
+      "categoria": "Oncológica",
+      "agentes": ["asbestos", "sílice", "humos de diésel", "arsénico", "cromo", "níquel"],
+      "sectores": ["minería", "fundición", "transporte pesado"],
+      "relacion_laboral": "Neoplasia pulmonar por carcinógenos ocupacionales"
+    },
+    {
+      "id": 23,
+      "codigo_cie11": "2B33.1",
+      "nombre": "Leucemia mieloide aguda",
+      "categoria": "Oncológica",
+      "agentes": ["benceno", "radiaciones ionizantes"],
+      "sectores": ["petroquímica", "refinería", "industria química"],
+      "relacion_laboral": "Asociación conocida con exposición laboral a benceno"
+    },
+    {
+      "id": 24,
+      "codigo_cie11": "2C31",
+      "nombre": "Cáncer de vejiga",
+      "categoria": "Oncológica",
+      "agentes": ["aminas aromáticas", "tintes", "hidrocarburos"],
+      "sectores": ["industria textil", "químicos", "caucho"],
+      "relacion_laboral": "Carcinógenos vesicales de origen ocupacional"
+    },
+    {
+      "id": 25,
+      "codigo_cie11": "2C30",
+      "nombre": "Cáncer de riñón",
+      "categoria": "Oncológica",
+      "agentes": ["tricloroetileno", "solventes"],
+      "sectores": ["desengrasado metálico", "industria de solventes"],
+      "relacion_laboral": "Exposición ocupacional a solventes clorados"
+    },
+    {
+      "id": 26,
+      "codigo_cie11": "2C31.0",
+      "nombre": "Carcinoma de células de transición de vejiga",
+      "categoria": "Oncológica",
+      "agentes": ["bencidina", "beta-naftilamina"],
+      "sectores": ["producción de tintes", "caucho"],
+      "relacion_laboral": "Carcinógenos laborales históricos y actuales en algunos procesos"
+    },
+    {
+      "id": 27,
+      "codigo_cie11": "2C23",
+      "nombre": "Cáncer de laringe",
+      "categoria": "Oncológica",
+      "agentes": ["asbestos", "nieblas de ácidos fuertes", "humos"],
+      "sectores": ["industria del amianto", "metalurgia"],
+      "relacion_laboral": "Asociación con carcinógenos inhalados en el trabajo"
+    },
+    {
+      "id": 28,
+      "codigo_cie11": "2C32",
+      "nombre": "Cáncer de piel (no melanoma)",
+      "categoria": "Oncológica",
+      "agentes": ["radiación UV", "arsénico", "alquitranes"],
+      "sectores": ["agricultura", "construcción", "trabajos a la intemperie"],
+      "relacion_laboral": "Exposición solar o química prolongada en el trabajo"
+    },
+    {
+      "id": 29,
+      "codigo_cie11": "EK00",
+      "nombre": "Dermatitis alérgica de contacto",
+      "categoria": "Dermatológica",
+      "agentes": ["cromo", "níquel", "látex", "resinas epoxi", "cemento"],
+      "sectores": ["construcción", "salud", "peluquería", "metalmecánica"],
+      "relacion_laboral": "Sensibilización cutánea por agentes del puesto de trabajo"
+    },
+    {
+      "id": 30,
+      "codigo_cie11": "EK02",
+      "nombre": "Dermatitis irritativa de contacto",
+      "categoria": "Dermatológica",
+      "agentes": ["detergentes", "solventes", "ácidos/álcalis", "humedad"],
+      "sectores": ["limpieza", "industria alimentaria", "salud"],
+      "relacion_laboral": "Daño cutáneo por irritantes laborales repetidos"
+    },
+    {
+      "id": 31,
+      "codigo_cie11": "1F23",
+      "nombre": "Candidiasis cutánea / onicomicosis relacionada con humedad",
+      "categoria": "Dermatológica / Infecciosa",
+      "agentes": ["humedad crónica", "Candida spp."],
+      "sectores": ["lavandería", "alimentos", "salud"],
+      "relacion_laboral": "Manos húmedas prolongadas en el entorno laboral"
+    },
+    {
+      "id": 32,
+      "codigo_cie11": "ED63",
+      "nombre": "Úlcera cutánea crónica / lesiones por agentes químicos",
+      "categoria": "Dermatológica",
+      "agentes": ["cromo hexavalente", "ácidos"],
+      "sectores": ["galvanizado", "curtido", "química"],
+      "relacion_laboral": "Lesiones cutáneas por contacto laboral con químicos agresivos"
+    },
+    {
+      "id": 33,
+      "codigo_cie11": "AB51",
+      "nombre": "Hipoacusia inducida por ruido",
+      "categoria": "Auditiva",
+      "agentes": ["ruido industrial >85 dB"],
+      "sectores": ["metalurgia", "textil", "aviación", "construcción"],
+      "relacion_laboral": "Pérdida auditiva neurosensorial por exposición laboral al ruido"
+    },
+    {
+      "id": 34,
+      "codigo_cie11": "AB37",
+      "nombre": "Acúfenos (tinnitus)",
+      "categoria": "Auditiva",
+      "agentes": ["ruido", "vibraciones", "ototóxicos"],
+      "sectores": ["manufactura", "minería", "transporte"],
+      "relacion_laboral": "Síntoma frecuente tras exposición ocupacional a ruido"
+    },
+    {
+      "id": 35,
+      "codigo_cie11": "8D40",
+      "nombre": "Síndrome del túnel carpiano",
+      "categoria": "Osteomuscular / Neurológica",
+      "agentes": ["movimientos repetitivos", "fuerza de agarre", "vibración"],
+      "sectores": ["ensamble", "ofimática intensiva", "carnicería", "costura"],
+      "relacion_laboral": "Compresión del nervio mediano por sobrecarga laboral de la muñeca"
+    },
+    {
+      "id": 36,
+      "codigo_cie11": "FB40.0",
+      "nombre": "Epicondilitis lateral (codo de tenista)",
+      "categoria": "Osteomuscular",
+      "agentes": ["movimientos repetitivos de codo/muñeca"],
+      "sectores": ["carpintería", "plomería", "deportes laborales", "ensamble"],
+      "relacion_laboral": "Sobrecarga tendinosa ocupacional del epicóndilo lateral"
+    },
+    {
+      "id": 37,
+      "codigo_cie11": "FB40.1",
+      "nombre": "Epicondilitis medial",
+      "categoria": "Osteomuscular",
+      "agentes": ["flexión repetida de muñeca", "fuerza"],
+      "sectores": ["construcción", "industria manufacturera"],
+      "relacion_laboral": "Tendinopatía por esfuerzo laboral del epicóndilo medial"
+    },
+    {
+      "id": 38,
+      "codigo_cie11": "FB51",
+      "nombre": "Tendinitis del manguito rotador / hombro",
+      "categoria": "Osteomuscular",
+      "agentes": ["trabajo por encima del hombro", "carga"],
+      "sectores": ["pintura", "almacenamiento", "instalaciones eléctricas"],
+      "relacion_laboral": "Sobrecarga postural y mecánica del hombro en el trabajo"
+    },
+    {
+      "id": 39,
+      "codigo_cie11": "FA80",
+      "nombre": "Gonartrosis (artrosis de rodilla)",
+      "categoria": "Osteomuscular",
+      "agentes": ["arrodillarse", "agacharse", "carga"],
+      "sectores": ["construcción", "minería", "jardinería", "instaladores"],
+      "relacion_laboral": "Desgaste articular agravado por posturas laborales forzadas"
+    },
+    {
+      "id": 40,
+      "codigo_cie11": "FA34",
+      "nombre": "Hernia discal lumbar",
+      "categoria": "Osteomuscular",
+      "agentes": ["levantamiento de cargas", "vibración de cuerpo completo", "posturas forzadas"],
+      "sectores": ["carga y descarga", "transporte", "enfermería", "construcción"],
+      "relacion_laboral": "Sobrecarga mecánica laboral de la columna lumbar"
+    },
+    {
+      "id": 41,
+      "codigo_cie11": "ME84.2",
+      "nombre": "Lumbalgia",
+      "categoria": "Osteomuscular",
+      "agentes": ["esfuerzo físico", "sedestación prolongada", "vibración"],
+      "sectores": ["oficina", "manejo de carga", "operadores de maquinaria"],
+      "relacion_laboral": "Dolor lumbar de origen o agravamiento laboral"
+    },
+    {
+      "id": 42,
+      "codigo_cie11": "FB56",
+      "nombre": "Tenosinovitis de Quervain",
+      "categoria": "Osteomuscular",
+      "agentes": ["movimientos repetitivos de pulgar/muñeca"],
+      "sectores": ["ensamble fino", "cuidado infantil institucional", "oficios manuales"],
+      "relacion_laboral": "Inflamación tendinosa por repetición ocupacional"
+    },
+    {
+      "id": 43,
+      "codigo_cie11": "NF08.3",
+      "nombre": "Síndrome de vibración mano-brazo",
+      "categoria": "Osteomuscular / Vascular",
+      "agentes": ["herramientas vibratorias"],
+      "sectores": ["construcción", "minería", "mantenimiento industrial"],
+      "relacion_laboral": "Exposición laboral a vibración transmitida a la mano"
+    },
+    {
+      "id": 44,
+      "codigo_cie11": "8A80",
+      "nombre": "Síndrome de Raynaud",
+      "categoria": "Vascular",
+      "agentes": ["vibración", "frío laboral"],
+      "sectores": ["trabajos con martillo neumático", "cámaras frías"],
+      "relacion_laboral": "Fenómeno vascular asociado a vibración/frío ocupacional"
+    },
+    {
+      "id": 45,
+      "codigo_cie11": "NE61",
+      "nombre": "Intoxicación por plomo",
+      "categoria": "Toxicológica",
+      "agentes": ["plomo", "humos de plomo"],
+      "sectores": ["baterías", "pintura con plomo", "fundición", "reciclaje"],
+      "relacion_laboral": "Exposición ocupacional a plomo metálico o sus compuestos"
+    },
+    {
+      "id": 46,
+      "codigo_cie11": "NE61",
+      "nombre": "Intoxicación por mercurio",
+      "categoria": "Toxicológica",
+      "agentes": ["mercurio metálico", "vapores de mercurio"],
+      "sectores": ["minería artesanal de oro", "industria química", "instrumentación"],
+      "relacion_laboral": "Absorción laboral de mercurio"
+    },
+    {
+      "id": 47,
+      "codigo_cie11": "NE61",
+      "nombre": "Intoxicación por arsénico",
+      "categoria": "Toxicológica",
+      "agentes": ["arsénico", "compuestos arsenicales"],
+      "sectores": ["fundición", "pesticidas", "preservación de madera"],
+      "relacion_laboral": "Exposición ocupacional a arsénico"
+    },
+    {
+      "id": 48,
+      "codigo_cie11": "NE61",
+      "nombre": "Intoxicación por pesticidas organofosforados",
+      "categoria": "Toxicológica",
+      "agentes": ["organofosforados", "carbamatos"],
+      "sectores": ["agricultura", "fumigación"],
+      "relacion_laboral": "Intoxicación aguda o crónica por plaguicidas laborales"
+    },
+    {
+      "id": 49,
+      "codigo_cie11": "NE61",
+      "nombre": "Intoxicación por solventes orgánicos",
+      "categoria": "Toxicológica",
+      "agentes": ["tolueno", "xileno", "n-hexano", "tricloroetileno"],
+      "sectores": ["pintura", "imprenta", "limpieza industrial", "calzado"],
+      "relacion_laboral": "Exposición inhalatoria o cutánea a solventes en el trabajo"
+    },
+    {
+      "id": 50,
+      "codigo_cie11": "8D01",
+      "nombre": "Neuropatía tóxica (p. ej. por n-hexano)",
+      "categoria": "Neurológica / Toxicológica",
+      "agentes": ["n-hexano", "disulfuro de carbono", "plomo"],
+      "sectores": ["calzado", "adhesivos", "industria química"],
+      "relacion_laboral": "Daño nervioso periférico por neurotóxicos laborales"
+    },
+    {
+      "id": 51,
+      "codigo_cie11": "1B10",
+      "nombre": "Tuberculosis",
+      "categoria": "Infecciosa",
+      "agentes": ["Mycobacterium tuberculosis"],
+      "sectores": ["salud", "laboratorios", "minería", "prisiones"],
+      "relacion_laboral": "Contagio en entornos laborales de alto riesgo"
+    },
+    {
+      "id": 52,
+      "codigo_cie11": "1E50.1",
+      "nombre": "Hepatitis B aguda/crónica (infección por VHB)",
+      "categoria": "Infecciosa",
+      "agentes": ["virus de la hepatitis B", "sangre/fluidos"],
+      "sectores": ["salud", "laboratorios clínicos", "servicios funerarios"],
+      "relacion_laboral": "Riesgo biológico por pinchazos o contacto con sangre"
+    },
+    {
+      "id": 53,
+      "codigo_cie11": "1E51.1",
+      "nombre": "Hepatitis C",
+      "categoria": "Infecciosa",
+      "agentes": ["virus de la hepatitis C"],
+      "sectores": ["salud", "dialisis", "laboratorios"],
+      "relacion_laboral": "Exposición ocupacional a sangre infectada"
+    },
+    {
+      "id": 54,
+      "codigo_cie11": "1B90",
+      "nombre": "Brucelosis",
+      "categoria": "Infecciosa",
+      "agentes": ["Brucella spp."],
+      "sectores": ["ganadería", "mataderos", "industrias lácteas"],
+      "relacion_laboral": "Zoonosis ocupacional por contacto con animales infectados"
+    },
+    {
+      "id": 55,
+      "codigo_cie11": "6A70",
+      "nombre": "Episodio depresivo",
+      "categoria": "Salud mental laboral",
+      "agentes": ["estrés psicosocial", "acoso laboral", "sobrecarga", "turnos nocturnos"],
+      "sectores": ["cualquier sector con factores psicosociales de riesgo"],
+      "relacion_laboral": "Puede relacionarse causalmente o por agravamiento con condiciones laborales"
+    }
+  ],
+  "categorias_resumen": {
+    "Respiratoria": 20,
+    "Oncológica": 8,
+    "Dermatológica": 4,
+    "Auditiva": 2,
+    "Osteomuscular": 8,
+    "Toxicológica": 5,
+    "Infecciosa": 4,
+    "Neurológica / Vascular / Salud mental": 4
+  },
+  "sugerencia_uso": {
+    "ejemplo_objeto_minimo": {
+      "codigo_cie11": "CA60.0",
+      "nombre": "Silicosis",
+      "relacion_laboral": true,
+      "agentes": ["sílice"]
+    },
+    "ejemplo_objeto_extendido": {
+      "codigo_cie11": "CA60.0",
+      "nombre": "Neumoconiosis por polvo de sílice",
+      "categoria": "Respiratoria",
+      "agentes": ["sílice cristalina"],
+      "sectores": ["minería"],
+      "notas_clinicas": "Confirmar con historia laboral y estudios de imagen"
+    }
+  }
+}
